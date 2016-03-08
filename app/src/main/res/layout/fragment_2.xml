@@ -2,4 +2,18 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hello ther you little piece of shit am gonna fuck you up nad feed your ass to my dogs"
+        android:id="@+id/textView"
+        android:layout_gravity="left|top" />
+
+    <ImageView
+        android:layout_width="288dp"
+        android:layout_height="338dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="left|center_vertical"
+        android:background="@drawable/canon" />
 </FrameLayout>

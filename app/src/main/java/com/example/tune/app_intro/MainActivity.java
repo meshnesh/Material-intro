@@ -19,6 +19,13 @@ public class MainActivity extends IntroActivity {
                 .build());
 
 
+        addSlide(new FragmentSlide.Builder()
+                .background(R.color.background_3)
+                .backgroundDark(R.color.background_dark_3)
+                .fragment(R.layout.fragment_3, R.style.FragmentTheme)
+                .build());
+
+
         /* Enable/disable fullscreen */
         setFullscreen(true);
 
