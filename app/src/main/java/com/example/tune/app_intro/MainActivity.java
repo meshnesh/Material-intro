@@ -30,10 +30,10 @@ public class MainActivity extends IntroActivity {
         setFullscreen(true);
 
         /* Enable/disable skip button */
-        setSkipEnabled(true);
+        setSkipEnabled(false);
 
         /* Enable/disable finish button */
-        setFinishEnabled(true);
+        setFinishEnabled(false);
 
         /* Add your own page change listeners */
         addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
@@ -48,6 +48,12 @@ public class MainActivity extends IntroActivity {
             @Override
             public void onPageScrollStateChanged(int state) {
             }
+//            private void finishIfNeeded() {
+//                if (positionOffset == 0 && position == adapter.getCount()) {
+//                    finish();
+//                    overridePendingTransition(0, 0);
+//                }
+//            }
         });
     }
 }
