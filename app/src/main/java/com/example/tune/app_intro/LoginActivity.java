@@ -18,7 +18,8 @@ import studios.codelight.smartloginlibrary.users.SmartUser;
 public class LoginActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        //setContentView(R.layout.activity_main);
         SmartLoginBuilder loginBuilder = new SmartLoginBuilder();
 
         //Set facebook permissions
